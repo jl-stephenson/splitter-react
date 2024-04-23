@@ -1,0 +1,19 @@
+.result-box {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+#box1 {
+  grid-row: 1/2;
+}
+
+#box2 {
+  grid-row: 2/3;
+}
+
+.reset-button {
+  grid-row: 4/5;
+}
