@@ -2,8 +2,9 @@
   padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 100px;
   gap: 10px;
+  align-items: center;
 }
 
 #box1 {
@@ -15,5 +16,9 @@
 }
 
 .reset-button {
+  width: 75%;
+  padding: 7px;
   grid-row: 4/5;
+  justify-self: center;
+  border: 1px solid black;
 }
